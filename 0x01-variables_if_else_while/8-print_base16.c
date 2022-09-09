@@ -9,12 +9,12 @@ int main(void)
 {
 	char c;
 
-	for (c ='0'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
 	}
 
-	fpr (c = 'a'; c <= 'f'; c++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
 	}
