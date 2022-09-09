@@ -1,28 +1,20 @@
 #include <stdio.h>
+
 /**
- *
- * main - printing numbers from 0-9 with commas and space between them
- *
- * Description: using the main function
- *
- * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
- *
- * Return: 0
- *
- */
+*main - Prints the numbers since 0 to 9
+*
+* Return: Always (Success)
+*/
 int main(void)
 {
-	int c;
+	int n;
 
-	for (c = 48; c <= 57; c++)
+	for(n ='0'; n <= '9'; n++)
 	{
-		putchar(c);
-		if (c != 57)
-		{
-			putchar(',');
-			putchar(',');
-		}	
+		putchar(n);
 	}
+
 	putchar('\n');
+	
 	return (0);
 }
