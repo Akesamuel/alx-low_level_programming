@@ -3,7 +3,7 @@
 /**
 * main - print possible combo of 3
 *
-*return: returns zero at the end
+* Return: returns zero at the end
 */
 int main(void)
 {
@@ -30,6 +30,6 @@ int main(void)
 		}
 	}
 
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
