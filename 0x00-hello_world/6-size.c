@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - print the string in the put function
+* main - print the size of many var types
 *
-* Description: using the main function
-* this program prints "programming is like building a multilingual puzzle
-* Return: 0
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -15,10 +13,10 @@ int main(void)
 	long long lli;
 	float f;
 
-	printf("size of a char: %ld byte(s)\n", (unsigned long)sizeof(c));
-	printf("size of an int: %ld byte(s)\n", (unsigned long)sizeof(i));
-	printf("size of a long int: %ld byte(s)\n", (unsigned long)sizeof(li));
-	printf("size of a long long int: %ld byte\n", (unsigned long)sizeof(lli));
-	printf("size of a float: %ld byte\n", (unsigned long)sizeof(f));
+	printf("size of a char: %d byte(s)\n", sizeof(c));
+	printf("size of an int: %d byte(s)\n", sizeof(i));
+	printf("size of a long int: %d byte(s)\n", sizeof(li));
+	printf("size of a long long int: %d byte(s)\n", sizeof(lli));
+	printf("size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
 }
