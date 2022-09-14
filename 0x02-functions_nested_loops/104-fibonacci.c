@@ -14,7 +14,7 @@ unsigned long n1 = 0, n2 = 1, n3;
 
 unsigned long n1_h1, n1_h2, n2_h1, n2_h2;
 
-unsigned long h1, h2
+unsigned long h1, h2;
 
 for (inc = 0; inc < 92; inc++)
 {
@@ -74,7 +74,7 @@ n2_h2 = h2;
 }
 
 printf("\n");
-
+i
 return (0);
 
 }
