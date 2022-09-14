@@ -74,7 +74,7 @@ n2_h2 = h2;
 }
 
 printf("\n");
-i
+
 return (0);
 
 }
